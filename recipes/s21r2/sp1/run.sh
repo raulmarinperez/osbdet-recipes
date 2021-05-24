@@ -23,5 +23,5 @@ printf "[Done]\n"
 printf "  - Fixing compatibility issues with Python libraries... "
 apt-get remove -y python3-chardet python3-urllib3 --purge >> $OSBDET_LOGFILE 2>&1
 apt autoremove -y >> $OSBDET_LOGFILE 2>&1
-python3 -m pip install requests
+python3 -m pip install requests >> $OSBDET_LOGFILE 2>&1
 printf "[Done]\n"
