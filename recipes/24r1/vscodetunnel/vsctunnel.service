@@ -1,0 +1,15 @@
+# Contents of /lib/systemd/system/vsctunnel.service
+[Unit]
+Description=Visual Studio Code Tunnel for OSBDET
+After=network.target
+
+[Service]
+Type=simple
+Restart=always
+User=osbdet
+#Environment="VARIABLE=VALUE"
+WorkingDirectory=/home/osbdet
+ExecStart=/usr/share/code/bin/code tunnel
+
+[Install]
+WantedBy=multi-user.target
