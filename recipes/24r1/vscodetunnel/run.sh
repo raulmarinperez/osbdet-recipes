@@ -15,7 +15,7 @@ trap ctrl_c INT
 #     none
 function ctrl_c() {
   killall code-tunnel
-  echo "  VS Code tunnel and associated Linux service install!"
+  echo "  VS Code tunnel and associated Linux service installed!"
 }
 
 # download_aarch64_installer
@@ -64,7 +64,7 @@ install_vscode_service(){
     printf "    - Creating the VS Code tunnel service... "
     cp $CURRENT_PATH/$VSCODE_SERVICE /lib/systemd/system/$VSCODE_SERVICE >> $LOG_FILE 2>&1
     systemctl enable `basename -- "$VSCODE_SERVICE" .service` >> $LOG_FILE 2>&1
-    printf "[Done]"
+    printf "[Done]\n"
   else
     echo "    ERROR: VS Code binary not found, review the log file for more info"
     exit 1

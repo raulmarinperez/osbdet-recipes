@@ -9,10 +9,11 @@ LOG_FILE=/tmp/osbdetweb_intall.log
 #     none
 install_nodejs20(){
    # Installation instructions documented at https://github.com/nodesource/distributions#debinstall
+   # The "chromium" package will be needed if decktape (PDF printing) is needed (ex. slides)
    curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | gpg --dearmor -o /etc/apt/keyrings/nodesource.gpg
    echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_20.x nodistro main" | tee /etc/apt/sources.list.d/nodesource.list
    apt-get update
-   apt-get install -y nodejs
+   apt-get install -y nodejs chromium
 }
 
 # OSBDET web installer's entry point
