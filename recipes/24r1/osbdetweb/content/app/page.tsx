@@ -1,5 +1,7 @@
 "use client";
 
+import { poweroff } from "@/actions/osbdet_actions";
+
 import Link from 'next/link'
 import CurrentPath from '@/app/path'
 import JupyterBox from '@/app/modules/jupyter/jupyter-box'
@@ -18,7 +20,17 @@ import GrafanaBox from '@/app/modules/grafana/grafana-box'
 export default function Page() {
 
   function handleClick() {
-    console.log("Shutting down")
+    const stopOSBDET = async () => {
+      const exec_result = await poweroff()
+      if (exec_result.status == 0) {
+        console.log("Environment stopped")
+      }
+      else {
+        console.log("ERROR: unable to stop OSBDET - " + exec_result.output)
+      }
+      
+    }
+    stopOSBDET()
   }
 
   return (
@@ -29,10 +41,12 @@ export default function Page() {
           <div className="col-start-1 col-span-1">
             <CurrentPath current_path=""/>
           </div>
-          <div className="text-right col-start-2 col-span-1">
-            <button onClick={handleClick}>
-              <img className="w-8" src="/images/poweroff.png"/>
+          <div className="col-start-2 col-span-1">
+            <div className="flex flex-row-reverse mr-5">
+            <button title="Switch the environment off" onClick={handleClick}>
+              <img className="w-8 hover:drop-shadow-md" src="/images/poweroff.png"/>
             </button>
+            </div>
           </div>
         </div>
       </div>

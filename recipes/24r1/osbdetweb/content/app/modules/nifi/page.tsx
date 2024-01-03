@@ -1,6 +1,24 @@
+"use client";
+
+import { poweroff } from "@/actions/osbdet_actions";
+
 import CurrentPath from '@/app/path'
 
 export default function NiFi() {
+
+    function handleClick() {
+      const stopOSBDET = async () => {
+        const exec_result = await poweroff()
+        if (exec_result.status == 0) {
+          console.log("Environment stopped")
+        }
+        else {
+          console.log("ERROR: unable to stop OSBDET - " + exec_result.output)
+        }
+        
+      }
+      stopOSBDET()
+    }
 
     return (
         <main className="z-40 relative">  
@@ -9,9 +27,13 @@ export default function NiFi() {
                 <div className="col-start-1 col-span-1">
                     <CurrentPath current_path="NiFi"/>
                 </div>
-                <div className="text-right col-start-2 col-span-1">
-                    <p>Adios</p>
-                </div>
+                    <div className="col-start-2 col-span-1">
+                        <div className="flex flex-row-reverse mr-5">
+                            <button title="Switch the environment off" onClick={handleClick}>
+                                <img className="w-8 hover:drop-shadow-md" src="/images/poweroff.png"/>
+                            </button>
+                        </div>
+                    </div>
             </div>
         </div>                   
             <div className=" container flex justify-between px-4 mx-auto gap-x-2 ">

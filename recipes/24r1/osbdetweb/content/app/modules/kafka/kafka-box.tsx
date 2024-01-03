@@ -20,7 +20,7 @@ export default function KafkaBox() {
           <div className="col-span-1">
             <div className="flex flex-row-reverse relative w-full">
               <div className="w-16 mr-2">
-                <ServiceSwitch service_name="Kafka" service_id="kafka"/>
+                <ServiceSwitch service_name="Kafka" service_id="kafka3"/>
               </div>
             </div>
           </div>
