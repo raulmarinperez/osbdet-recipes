@@ -61,13 +61,13 @@ export default function MongoDB() {
                             <img className="w-[600px] drop-shadow-md" src="/images/mongodb_stop.png"/> 
                             <em className="text-sm">* Type <strong>osbdet123$</strong> if prompted for the password.</em>
                         </div>
-	                    <p className="pb-4"><strong className="text-lg">How to access: </strong>
-	                        <ul className="ml-8 mt-2 list-disc">
-	                            <li>
-                                    <em><strong>MongoDB Shell - </strong></em>MongoDB Shell allows you to interact with your databases; just type the <code className="bg-slate-300 p-1">mongosh</code> command in a Jupter Terminal windows (no password needed):
-                                    <img className="pt-4 pb-4 w-[600px] drop-shadow-md" src="/images/mongodb_shell.png"/>
-                                </li>
-	                        </ul>
+	                    <p><strong className="text-lg">How to access: </strong>
+                        <ul className="ml-8 mt-2 list-disc">
+                            <li>
+                                <em><strong>MongoDB Shell - </strong></em>MongoDB Shell allows you to interact with your databases; just type the <code className="bg-slate-300 p-1">mongosh</code> command in a Jupter Terminal windows (no password needed):
+                                <img className="pt-4 pb-4 w-[600px] drop-shadow-md" src="/images/mongodb_shell.png"/>
+                            </li>
+                        </ul>
 	                    </p>
 	                    <p className="pb-4"><strong className="text-lg">Description: </strong>The Community version of the MongoDB distributed database offers a flexible 
                           document data model along with support for ad-hoc queries, secondary indexing, and real-time aggregations 

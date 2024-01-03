@@ -55,12 +55,11 @@ export default function Hadoop() {
                             <strong className="text-lg">How to manually shut it down: </strong>Type the <code className="bg-slate-300 p-1">hadoop-stop.sh</code> command in a Jupyter Terminal window:
                         </p>
                         <img className="w-[600px] pb-4 drop-shadow-md" src="/images/hadoop_stop.png"/>
-                        <p className="pb-4"><strong className="text-lg">How to access: </strong>There are several resources you can access to:
-                            <ul className="ml-8 mt-2 list-disc">
-                                <li><em><strong>HDFS Web UI -</strong></em> accessible via <a href="http://localhost:50070" className="underline" target="_blank">http://localhost:50070</a></li>
-                                <li><em><strong>YARN Web UI -</strong></em> accessible via <a href="http://localhost:28088" className="underline" target="_blank">http://localhost:28088</a></li>
-                            </ul>
-                        </p>
+                        <p><strong className="text-lg">How to access: </strong>There are several resources you can access to:</p>
+                        <ul className="pb-4 ml-8 mt-2 list-disc">
+                            <li><em><strong>HDFS Web UI -</strong></em> accessible via <a href="http://localhost:50070" className="underline" target="_blank">http://localhost:50070</a></li>
+                            <li><em><strong>YARN Web UI -</strong></em> accessible via <a href="http://localhost:28088" className="underline" target="_blank">http://localhost:28088</a></li>
+                        </ul>
                         <p className="pb-4"><strong className="text-lg">Description:</strong> The Apache Hadoop software library is a framework that allows for the 
                             distributed processing of large data sets across clusters of computers using simple programming 
                             models. It is designed to scale up from single servers to thousands of machines, each offering local 

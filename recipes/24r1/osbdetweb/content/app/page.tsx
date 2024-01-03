@@ -61,13 +61,12 @@ export default function Page() {
           environment and how to make them work. Please, bear in mind this is an educational environment and <strong><em>it shouldn&apos;t 
           be used for production use cases</em></strong> as it doesn&apos;t scale to handle large volumes of data (everything runs on one single 
           node); use it to learn the different frameworks available in the environment or to proof concepts with small datasets.</p>
-          <p className="sm mt-4 leading-relaxed text-base">A few tips to avoid making the environment unusable:
-            <ul className="ml-8 mt-2 list-disc">
-              <li>Only enable the technology that you are going to use.</li>
-              <li>Most likely, you won&apos;t be able to make more than two technologies work together.</li>
-              <li>Shut down the environment once you&apos;re done, that&apos;ll release resources and will make your computer work better.</li>
-            </ul>
-          </p>
+          <p className="sm mt-4 leading-relaxed text-base">A few tips to avoid making the environment unusable:</p>
+          <ul className="ml-8 mt-2 list-disc">
+            <li>Only enable the technology that you are going to use.</li>
+            <li>Most likely, you won&apos;t be able to make more than two technologies work together.</li>
+            <li>Shut down the environment once you&apos;re done, that&apos;ll release resources and will make your computer work better.</li>
+          </ul>
           <p className="sm mt-4 leading-relaxed text-base">
           For more information visit the <strong><em><Link className="underline" href="https://github.com/raulmarinperez/osbdet" target="_blank">OSBDET&apos;s Github repository</Link></em></strong>.</p>
           <h1 className="sm:text-2xl mt-4 text-2xl font-medium title-font text-gray-900">

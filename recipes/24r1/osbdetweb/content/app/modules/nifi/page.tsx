@@ -55,11 +55,10 @@ export default function NiFi() {
                             <strong className="text-lg">How to manually shut it down: </strong>Type the <code className="bg-slate-300 p-1">nifi.sh stop</code> command in a Jupyter Terminal window:
                         </p>
                         <img className="w-[600px] pb-4 drop-shadow-md" src="/images/nifi_stop.png"/>
-                        <p className="pb-4"><strong className="text-lg">How to access: </strong>
-	                        <ul className="ml-8 mt-2 list-disc">
-                                <li><em><strong>NiFi Web UI -</strong></em> accessible via <a href="http://localhost:29090/nifi" className="underline" target="_blank">http://localhost:29090/nifi</a></li>   
-                            </ul>
-	                    </p>
+                        <p><strong className="text-lg">How to access: </strong></p>
+                        <ul className="pb-4 ml-8 mt-2 list-disc">
+                            <li><em><strong>NiFi Web UI -</strong></em> accessible via <a href="http://localhost:29090/nifi" className="underline" target="_blank">http://localhost:29090/nifi</a></li>   
+                        </ul>
 	                    <p className="pb-4"><strong className="text-lg">Description: </strong>Put simply, NiFi was built to automate the flow of data between systems. 
                           While the term &apos;dataflow&apos; is used in a variety of contexts, we use it here to mean the automated and 
                           managed flow of information between systems. This problem space has been around ever since enterprises 

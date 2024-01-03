@@ -57,14 +57,14 @@ export default function Airflow() {
                             <img className="w-[600px] drop-shadow-md" src="/images/airflow_stop.png"/> 
                             <em className="text-sm">* Type <strong>osbdet123$</strong> if prompted for the password.</em>
                         </div>
-	                    <p className="pb-4"><strong className="text-lg">How to access: </strong>
-	                        <ul className="ml-8 mt-2 list-disc">
-                                <li>
-		                            <em><strong>Airflow Web UI -</strong></em> accessible via <a href="http://localhost:28080" className="underline" target="_blank">http://localhost:28080</a>; log into Airflow as user <em><strong>osbdet</strong></em> with password <em><strong>osbdet123$</strong></em>.
-                                    <img className="pt-4 pb-4 w-[600px] drop-shadow-md" src="/images/airflow_login.png"/>
-	                            </li>   
-                            </ul>
-	                    </p>
+	                    <p><strong className="text-lg">How to access: </strong></p>
+                        <ul className="ml-8 mt-2 list-disc">
+                            <li>
+                                <em><strong>Airflow Web UI -</strong></em> accessible via <a href="http://localhost:28080" className="underline" target="_blank">http://localhost:28080</a>; log into Airflow as user <em><strong>osbdet</strong></em> with password <em><strong>osbdet123$</strong></em>.
+                                <img className="pt-4 pb-4 w-[600px] drop-shadow-md" src="/images/airflow_login.png"/>
+                            </li>   
+                        </ul>
+	                    
 	                    <p className="pb-4"><strong className="text-lg">Description: </strong>Airflow is a platform created by the community to programmatically author, schedule and monitor workflows.</p>
                         <p className="pb-4"><strong className="text-lg">Project website: </strong> <a href="https://airflow.apache.org/" className="underline" target="_blank">https://airflow.apache.org</a></p>
                         <p className="pb-4 "><strong className="text-lg">Additional notes:</strong><br/>

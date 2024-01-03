@@ -57,14 +57,14 @@ export default function Superset() {
                             <img className="w-[600px] drop-shadow-md" src="/images/superset_stop.png"/> 
                             <em className="text-sm">* Type <strong>osbdet123$</strong> if prompted for the password.</em>
                         </div>
-	                    <p className="pb-4"><strong className="text-lg">How to access: </strong>
-                            <ul className="ml-8 mt-2 list-disc">
-                                <li>
-                                    <em><strong>Superset Web UI -</strong></em> accessible via <a href="http://localhost:28880" className="underline" target="_blank">http://localhost:28880</a>; log into Superset as user <em><strong>osbdet</strong></em> with password <em><strong>osbdet123$</strong></em>.                                    
-                                    <img className="w-[600px] drop-shadow-md pt-4 pb-4" src="/images/superset_login.png"/>
-                                </li>   
-                            </ul>
-	                    </p>
+	                    <p><strong className="text-lg">How to access: </strong></p>
+                        <ul className="ml-8 mt-2 list-disc">
+                            <li>
+                                <em><strong>Superset Web UI -</strong></em> accessible via <a href="http://localhost:28880" className="underline" target="_blank">http://localhost:28880</a>; log into Superset as user <em><strong>osbdet</strong></em> with password <em><strong>osbdet123$</strong></em>.                                    
+                                <img className="w-[600px] drop-shadow-md pt-4 pb-4" src="/images/superset_login.png"/>
+                            </li>   
+                        </ul>
+	                    
 	                    <p className="pb-4"><strong className="text-lg">Description: </strong>Superset is fast, lightweight, intuitive, and loaded with options that make 
                           it easy for users of all skill sets to explore and visualize their data, from simple line charts to highly 
                           detailed geospatial charts.</p>

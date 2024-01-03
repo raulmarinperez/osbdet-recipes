@@ -53,26 +53,24 @@ export default function Spark() {
                         </p>
 	                    <p className="pb-4"><strong className="text-lg">How to shut it down: </strong>You don&apos;t have to, resources used by Spark are released when 
                           your notebook or application is done.</p>
-	                    <p className="pb-4"><strong className="text-lg">How to access: </strong>
-                            <ul className="ml-8 mt-2 list-disc">
-                                <li><em><strong>Spark Web UI -</strong></em> accessible via <a href="http://localhost:24040" className="underline" target="_blank">http://localhost:24040</a></li>
-                            </ul>
-                        </p>
+	                    <p><strong className="text-lg">How to access: </strong></p>
+                        <ul className="pb-4 ml-8 mt-2 list-disc">
+                            <li><em><strong>Spark Web UI -</strong></em> accessible via <a href="http://localhost:24040" className="underline" target="_blank">http://localhost:24040</a></li>
+                        </ul>
 	                    <p className="pb-4"><strong className="text-lg">Description: </strong>Apache Spark™ is a multi-language engine for executing data engineering, 
                           data science, and machine learning on single-node machines or clusters.</p>
                         <p className="pb-4"><strong className="text-lg">Project website: </strong> <a href="https://spark.apache.org/" className="underline" target="_blank">https://spark.apache.org/</a></p>
-                        <p className="pb-4 ">
+                        <p>
                           <strong className="text-lg">Additional notes:</strong><br/>
                           The Spark deployment available in this environment is configured in <em>Standalone Cluster Mode</em>, which 
                           means only one node will be used for jobs execution. It&apos;s highly suggested to work with small datasets (up 
                           to some hundreds of Megabytes) to avoid hitting the limits. All the main libraries available in Spark have 
-                          been successfully used:
-                          <ul className="ml-8 mt-2 list-disc">
+                          been successfully used:</p>
+                        <ul className="pb-4 ml-8 mt-2 list-disc">
                             <li><a href="https://spark.apache.org/docs/latest/streaming-programming-guide.html" target="_blank">Spark Streaming</a></li>
                             <li><a href="https://graphframes.github.io/graphframes/docs/_site/index.html" target="_blank">Spark GraphFrames</a></li>
                             <li><a href="https://spark.apache.org/mllib/" target="_blank">Spark MLlib</a></li>
-                          </ul>
-                        </p>
+                        </ul>
                     </div>
                 </article>
             </div>

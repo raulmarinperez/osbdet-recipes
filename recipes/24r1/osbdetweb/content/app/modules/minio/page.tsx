@@ -57,14 +57,13 @@ export default function MinIO() {
                             <img className="w-[600px] drop-shadow-md" src="/images/minio_stop.png"/> 
                             <em className="text-sm">* Type <strong>osbdet123$</strong> if prompted for the password.</em>
                         </div>
-	                    <p className="pb-4"><strong className="text-lg">How to access: </strong>
-	                        <ul className="ml-8 mt-2 list-disc">
-                                <li>
-		                            <em><strong>MinIO Console -</strong></em> accessible via <a href="http://localhost:29001" className="underline" target="_blank">http://localhost:29001</a>; log into MinIO as user <em><strong>osbdet</strong></em> with password <em><strong>osbdet123$</strong></em>.
-                                    <img className="pt-4 pb-4 w-[600px] drop-shadow-md" src="/images/minio_login.png"/>
-	                            </li>   
-                             </ul>
-	                    </p>
+	                    <p><strong className="text-lg">How to access: </strong></p>
+                        <ul className="ml-8 mt-2 list-disc">
+                            <li>
+                                <em><strong>MinIO Console -</strong></em> accessible via <a href="http://localhost:29001" className="underline" target="_blank">http://localhost:29001</a>; log into MinIO as user <em><strong>osbdet</strong></em> with password <em><strong>osbdet123$</strong></em>.
+                                <img className="pt-4 pb-4 w-[600px] drop-shadow-md" src="/images/minio_login.png"/>
+                            </li>   
+                        </ul>
 	                    <p className="pb-4"><strong className="text-lg">Description: </strong>MinIO offers high-performance, S3 compatible object storage.
                           Native to Kubernetes, MinIO is the only object storage suite available on every public cloud, every Kubernetes distribution, the private cloud and the edge. MinIO is software-defined and is 100% open source under GNU AGPL v3.</p>
                         <p className="pb-4"><strong className="text-lg">Project website: </strong> <a href="https://min.io/" className="underline" target="_blank">https://min.io/</a></p>

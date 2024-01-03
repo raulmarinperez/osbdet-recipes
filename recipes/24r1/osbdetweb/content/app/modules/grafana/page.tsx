@@ -57,14 +57,13 @@ export default function Grafana() {
                             <img className="w-[600px] drop-shadow-md" src="/images/grafana_stop.png"/> 
                             <em className="text-sm">* Type <strong>osbdet123$</strong> if prompted for the password.</em>
                         </div>
-	                    <p className="pb-4"><strong className="text-lg">How to access: </strong>
-	                        <ul className="ml-8 mt-2 list-disc">
-                                <li>
-		                            <em><strong>Grafana Dashboards -</strong></em> accessible via <a href="http://localhost:23000" className="underline" target="_blank">http://localhost:23000</a>; log into Grafana as user <em><strong>admin</strong></em> with password <em><strong>admin</strong></em>.
-                                    <img className="pt-4 pb-4 w-[600px] drop-shadow-md" src="/images/grafana_login.png"/>
-	                            </li>   
-                            </ul>
-	                    </p>
+	                    <p><strong className="text-lg">How to access: </strong></p>
+                        <ul className="ml-8 mt-2 list-disc">
+                            <li>
+                                <em><strong>Grafana Dashboards -</strong></em> accessible via <a href="http://localhost:23000" className="underline" target="_blank">http://localhost:23000</a>; log into Grafana as user <em><strong>admin</strong></em> with password <em><strong>admin</strong></em>.
+                                <img className="pt-4 pb-4 w-[600px] drop-shadow-md" src="/images/grafana_login.png"/>
+                            </li>   
+                        </ul>
 	                    <p className="pb-4"><strong className="text-lg">Description: </strong>Query, visualize, alert on, and understand your data no matter where it&apos;s stored. With Grafana you can create, explore, and share all of your data through beautiful, flexible dashboards.</p>
                         <p className="pb-4"><strong className="text-lg">Project website: </strong> <a href="https://grafana.com/" className="underline" target="_blank">https://grafana.com</a></p>
                         <p className="pb-4 "><strong className="text-lg">Additional notes:</strong><br/>

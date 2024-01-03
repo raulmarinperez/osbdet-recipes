@@ -57,16 +57,15 @@ export default function MariaDB() {
                             <img className="w-[600px] drop-shadow-md" src="/images/mariadb_stop.png"/> 
                             <em className="text-sm">* Type <strong>osbdet123$</strong> if prompted for the password.</em>
                         </div>
-                        <p className="pb-4"><strong className="text-lg">How to access: </strong>
-                            <ul className="ml-8 mt-2 list-disc">
-                                <li><em><strong>MariaDB CLI - </strong></em>MariaDB&apos;s Command Line Interface allows you to interact with your databases; type the <code className="bg-slate-300 p-1">mariadb -u osbdet -p</code> command in a Jupter Terminal windows:
-                                    <div className="pt-4 pb-4">
-                                        <img className="w-[600px] drop-shadow-md" src="/images/mariadb_cli.png"/>
-                                        <em className="text-sm">* Type <strong>osbdet123$</strong> when prompted for the password; bear in mind no text will show up while typing the password.</em>
-                                    </div>
-                                </li>
-                            </ul>
-                        </p>
+                        <p><strong className="text-lg">How to access: </strong></p>
+                        <ul className="ml-8 mt-2 list-disc">
+                            <li><em><strong>MariaDB CLI - </strong></em>MariaDB&apos;s Command Line Interface allows you to interact with your databases; type the <code className="bg-slate-300 p-1">mariadb -u osbdet -p</code> command in a Jupter Terminal windows:
+                                <div className="pt-4 pb-4">
+                                    <img className="w-[600px] drop-shadow-md" src="/images/mariadb_cli.png"/>
+                                    <em className="text-sm">* Type <strong>osbdet123$</strong> when prompted for the password; bear in mind no text will show up while typing the password.</em>
+                                </div>
+                            </li>
+                        </ul>
                         <p className="pb-4"><strong className="text-lg">Description: </strong>MariaDB Server is one of the most popular open source relational databases. It was created by the original developers of MySQL and guaranteed to stay open source. It is part of most cloud offerings and the default in most Linux distributions.</p>
                         <p className="pb-4"><strong className="text-lg">Project website: </strong> <a href="https://mariadb.org/" className="underline" target="_blank">https://mariadb.org/</a></p>
                         <p className="pb-4 "><strong className="text-lg">Additional notes:</strong><br/>
