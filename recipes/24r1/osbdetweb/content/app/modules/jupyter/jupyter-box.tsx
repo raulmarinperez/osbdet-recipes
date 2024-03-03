@@ -15,7 +15,7 @@ export default function JupyterBox() {
                 <Link href="/modules/jupyter" title="More info about the module"><img className="w-[24px] hover:drop-shadow-md" src="/images/info.png"/></Link>
               </span>
               <span className="ml-2">
-                <Link href="http://localhost:28888" title="Open the Jupyter UI" target="_blank"><img className="w-[24px] hover:drop-shadow-md" src="/images/ui.png"/></Link>
+                <Link href="http://localhost:28888/lab" title="Open the Jupyter UI" target="_blank"><img className="w-[24px] hover:drop-shadow-md" src="/images/ui.png"/></Link>
               </span>
             </div>
           </div>
