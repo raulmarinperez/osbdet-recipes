@@ -51,18 +51,12 @@ export default function Kafka() {
                             <strong className="text-lg">How to manually start it up: </strong>Type the <code className="bg-slate-300 p-1">sudo service kafka start</code> command in a 
                             Jupyter Terminal window:
                         </p>
-                        <div className="pb-4">
-                            <img className="w-[600px] drop-shadow-md" src="/images/kafka_start.png"/> 
-                            <em className="text-sm">* Type <strong>osbdet123$</strong> if prompted for the password.</em>
-                        </div>
+                        <img className="w-[600px] drop-shadow-md" src="/images/kafka_start.png"/>
                         <p className="pb-4">
                             <strong className="text-lg">How to manually shut it down: </strong>Type the <code className="bg-slate-300 p-1">sudo service kafka stop</code> command in a 
                             Jupyter Terminal window:
                         </p>
-                        <div className="pb-4">
-                            <img className="w-[600px] drop-shadow-md" src="/images/kafka_stop.png"/> 
-                            <em className="text-sm">* Type <strong>osbdet123$</strong> if prompted for the password.</em>
-                        </div>
+                        <img className="w-[600px] drop-shadow-md" src="/images/kafka_stop.png"/>
                         <p className="pb-4"><strong className="text-lg">How to access: </strong>There is no user interface for Kafka.</p>
                         <p className="pb-4"><strong className="text-lg">Description: </strong>Apache Kafka is an open-source distributed event streaming platform 
                             used by thousands of companies for high-performance data pipelines, streaming analytics, data 

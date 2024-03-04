@@ -48,11 +48,11 @@ export default function Hadoop() {
                             </h2>
                         </div>
                         <p className="pt-4 pb-4">
-                            <strong className="text-lg">How to manually start it up: </strong>Type the <code className="bg-slate-300 p-1">hadoop-start.sh</code> command in a Jupyter Terminal window:
+                            <strong className="text-lg">How to manually start it up: </strong>Type the <code className="bg-slate-300 p-1">sudo service hadoop3 start</code> command in a Jupyter Terminal window:
                         </p>
                         <img className="w-[600px] pb-4 drop-shadow-md" src="/images/hadoop_start.png"/>
                         <p className="pb-4">
-                            <strong className="text-lg">How to manually shut it down: </strong>Type the <code className="bg-slate-300 p-1">hadoop-stop.sh</code> command in a Jupyter Terminal window:
+                            <strong className="text-lg">How to manually shut it down: </strong>Type the <code className="bg-slate-300 p-1">sudo service hadoop3 stop</code> command in a Jupyter Terminal window:
                         </p>
                         <img className="w-[600px] pb-4 drop-shadow-md" src="/images/hadoop_stop.png"/>
                         <p><strong className="text-lg">How to access: </strong>There are several resources you can access to:</p>
