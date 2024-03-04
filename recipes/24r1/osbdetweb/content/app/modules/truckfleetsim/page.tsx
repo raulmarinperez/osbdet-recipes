@@ -51,17 +51,11 @@ export default function TruckFleetSim() {
                                 <strong className="text-lg">How to manually start it up: </strong>Type the <code className="bg-slate-300 p-1">sudo service truckfleet-sim start</code> command 
                                 in a Jupyter Terminal window:
                             </p>
-                            <div className="pb-4">
-                                <img className="w-[600px] drop-shadow-md" src="/images/truckfleet-sim_start.png"/> 
-                                <em className="text-sm">* Type <strong>osbdet123$</strong> if prompted for the password.</em>
-                            </div>
+                            <img className="w-[600px] pb-4 drop-shadow-md" src="/images/truckfleet-sim_start.png"/>
 	                        <p className="pb-4">
                                 <strong className="text-lg">How to manually shut it down: </strong>Type the <code className="bg-slate-300 p-1">sudo service truckfleet-sim stop</code> command in a 
                                 Jupyter Terminal window:</p>
-                            <div className="pb-4">
-                                <img className="w-[600px] drop-shadow-md" src="/images/truckfleet-sim_stop.png"/> 
-                                <em className="text-sm">* Type <strong>osbdet123$</strong> if prompted for the password.</em>
-                            </div>
+                            <img className="w-[600px] pb-4 drop-shadow-md" src="/images/truckfleet-sim_stop.png"/>
 	                        <p className="pb-4"><strong className="text-lg">How to access: </strong>There is no user interface for the Truck Fleet Simulator.</p>
 	                        <p><strong className="text-lg">Description: </strong>Data generator creating events related to trucks going over different 
                               routes whose drivers break the rules from time to time. Very handy for learning how to code real-time 
