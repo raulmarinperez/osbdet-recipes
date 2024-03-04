@@ -51,16 +51,10 @@ export default function MongoDB() {
                             <strong className="text-lg">How to manually start it up: </strong>Type the <code className="bg-slate-300 p-1">sudo service mongodb start</code> command in a 
                             Jupyter Terminal window:
                         </p>
-                        <div className="pb-4">
-                            <img className="w-[600px] drop-shadow-md" src="/images/mongodb_start.png"/> 
-                            <em className="text-sm">* Type <strong>osbdet123$</strong> if prompted for the password.</em>
-                        </div>
+                        <img className="w-[600px] pb-4 drop-shadow-md" src="/images/mongodb_start.png"/> 
 	                    <p className="pb-4"><strong className="text-lg">How to manually shut it down: </strong>Type the <code className="bg-slate-300 p-1">sudo service mongodb stop</code> command in a Jupyter 
                           Terminal window:</p>
-                        <div className="pb-4">
-                            <img className="w-[600px] drop-shadow-md" src="/images/mongodb_stop.png"/> 
-                            <em className="text-sm">* Type <strong>osbdet123$</strong> if prompted for the password.</em>
-                        </div>
+                        <img className="w-[600px] pb-4 drop-shadow-md" src="/images/mongodb_stop.png"/>
 	                    <p><strong className="text-lg">How to access: </strong>
                         <ul className="ml-8 mt-2 list-disc">
                             <li>
