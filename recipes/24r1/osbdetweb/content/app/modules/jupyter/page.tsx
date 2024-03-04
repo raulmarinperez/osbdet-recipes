@@ -51,7 +51,7 @@ export default function Jupyter() {
                         <p className="pb-4"><strong className="text-lg">How to shut it down:</strong> You don&apos;t have to, it&apos;s automatically stopped when the environment is shut down.</p>
                         <p><strong className="text-lg">How to access: </strong></p>
                         <ul className="pb-4 ml-8 mt-2 list-disc">
-                            <li><em><strong>Jupyter UI -</strong></em> accessible via <a href="http://localhost:28888" className="underline" target="_blank">http://localhost:28888</a>; use the <strong>osbdet123$</strong> password when prompted.</li>
+                            <li><em><strong>Jupyter UI -</strong></em> accessible via <a href="http://localhost:28888/lab" className="underline" target="_blank">http://localhost:28888/lab</a>; use the <strong>osbdet123$</strong> password when prompted.</li>
                         </ul>
                         <p className="pb-4"><strong className="text-lg">Description: </strong>JupyterLab is the latest web-based interactive development environment for notebooks, code, and data. Its flexible interface allows users to configure and arrange workflows in data science, scientific computing, computational journalism, and machine learning. A modular design invites extensions to expand and enrich functionality.</p>
                         <p className="pb-4"><strong className="text-lg">Project website: </strong> <a href="https://jupyter.org/" className="underline" target="_blank">https://jupyter.org</a></p>
