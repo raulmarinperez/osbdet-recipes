@@ -48,15 +48,9 @@ export default function MariaDB() {
                             </h2>
                         </div>
                         <p className="pt-4 pb-4"><strong className="text-lg">How to manually start it up: </strong>Type the <code className="bg-slate-300 p-1">sudo service mariadb start</code> command in a Jupyter Terminal window:</p>
-                        <div className="pb-4">
-                            <img className="w-[600px] drop-shadow-md" src="/images/mariadb_start.png"/> 
-                            <em className="text-sm">* Type <strong>osbdet123$</strong> if prompted for the password.</em>
-                        </div>
+                        <img className="w-[600px] pb-4 drop-shadow-md" src="/images/mariadb_start.png"/>
                         <p className="pb-4"><strong className="text-lg">How to manually shut it down: </strong>Type the <code className="bg-slate-300 p-1">sudo service mariadb stop</code> command in a Jupyter Terminal window:</p>
-                        <div className="pb-4">
-                            <img className="w-[600px] drop-shadow-md" src="/images/mariadb_stop.png"/> 
-                            <em className="text-sm">* Type <strong>osbdet123$</strong> if prompted for the password.</em>
-                        </div>
+                        <img className="w-[600px] pb-4 drop-shadow-md" src="/images/mariadb_stop.png"/>
                         <p><strong className="text-lg">How to access: </strong></p>
                         <ul className="ml-8 mt-2 list-disc">
                             <li><em><strong>MariaDB CLI - </strong></em>MariaDB&apos;s Command Line Interface allows you to interact with your databases; type the <code className="bg-slate-300 p-1">mariadb -u osbdet -p</code> command in a Jupter Terminal windows:
